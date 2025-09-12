@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Étudiant</title>
+  <link rel="stylesheet" href="style/style_jobs.css">
+ 
+</head>
+<body>
+
+  <h1>Mes Jobs Étudiants</h1>
+  <div class="jobs-container">
+    <!-- Carte Job Manutention -->
+    <div class="job-card" onclick="openModal()">
+        <img src="images/job1.jpeg" alt="Job Manutention">
+        <div class="content">
+        <h3>Manutentionnaire</h3>
+        <p>Chargement et déchargement de palettes dans un entrepôt.</p>
+        </div>
+    </div>
+    <!-- Carte Job Plonge-->
+    <div class="job-card" onclick="openModal()">
+        <img src="images/job2.jpg" alt="Job plonge">
+        <div class="content">
+            <h3>Plongeur en restauration</h3>
+            <p>Nettoyage de la vaisselle et maintien de la cuisine propre.</p>
+        </div>
+    </div>
+  </div>
+  <!-- Fenêtre modale -->
+  <!-- Modal Mannutention -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h2>Manutentionnaire</h2>
+      <p>
+        J’ai travaillé 3 mois dans un entrepôt logistique, où j’étais chargé de 
+        charger et décharger des palettes, organiser les marchandises, et respecter 
+        les délais de livraison.
+      </p>
+      <h4>Compétences acquises :</h4>
+      <ul>
+        <li>Travail d’équipe</li>
+        <li>Rigueur et ponctualité</li>
+        <li>Résistance physique</li>
+      </ul>
+      <a href="documents/certif1.pdf" target="_blank" class="btn">Voir certificat</a>
+      <a href="documents/Cv_manu.pdf" target="_blank" class="btn"> CV </a>
+
+    </div>
+  </div>
+  <!-- Modal Plonge -->
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h2>Plongeur en restauration</h2>
+        <p>
+            Pendant mes missions de plonge en restauration, j'étais responsable du nettoyage de la 
+            vaisselle, des ustensiles et du matériel de cuisine.
+            J'assurais aussi l'hygiène et la propreté de l'espace de travail.
+        </p>
+        <h4>Compétences acquises :</h4>
+        <ul>
+            <li>Rapidité et efficacité</li>
+            <li>Organisation et Rigueur</li>
+            <li>Respect des normes d'hygiène</li>
+        </ul>
+        <a href="documents/attestation-plonge.pdf" target="_blank" class="btn"> Voir certificat</a>
+        <a href="docume" target="_blank" class="btn"> CV </a>
+
+
+    </div>
+  </div>
+
+</body>
+<script src="script/script_job.js" defer></script>
+</html>
