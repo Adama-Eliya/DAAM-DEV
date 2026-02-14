@@ -1,4 +1,6 @@
 
+
+
 const liste_jobcard = document.getElementsByClassName("job-card");
 
 const modal1 = document.getElementById("modal1");
