@@ -10,6 +10,7 @@ projets.forEach(element => {
     const p = document.createElement("p");
     const lienGit = document.createElement("a");
     const lienDemo = document.createElement("a");
+    lienDemo.style.margin = "2px";
     div.appendChild(img);
     div.appendChild(div1);
     div1.appendChild(h3);
