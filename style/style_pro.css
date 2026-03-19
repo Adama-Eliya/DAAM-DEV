@@ -48,5 +48,6 @@ h1 {
     color: #00ffcc;
     text-decoration: underline;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
